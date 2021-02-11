@@ -6,6 +6,8 @@ function addTwo(int) {
 
 const output = addTwo(num);
 
+console.log(output);
+
 // When the preceding code block begins to run, main() is initially pushed onto the call stack. But what is main()? We can think of the main() function as a global function that creates the global memory that will run the code in the JavaScript runtime. main() indicates that access to the global memory is active
 
 // When the TOE points to the first expression, const num = 3;, a new variable, num, is assigned the value of 3 in the global memory, also known as the global variable environment
